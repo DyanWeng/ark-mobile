@@ -1,17 +1,34 @@
 <!DOCTYPE html>
+<!-- saved from url=(0155)file:///Users/dyanweng/Desktop/%E7%B6%B2%E9%A0%81%E7%9B%B8%E9%97%9C%E8%B3%87%E8%A8%8A/%E5%85%A8%E5%B1%8F%E7%BF%BB%E9%A0%81/02/201503021530/index.html#media -->
 <html class="fsvs demo" lang="zh">
       <meta charset="utf-8">
-		<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=edge">
+<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=edge">
+<meta name="viewport" content="width=device-width"/>
        <head>
         
         <title>点球</title>
         
         <!--CSS-->
-        <link rel="stylesheet" href="css/mobile_index.css">
-        <!--CSS--> 
+        <link rel="stylesheet" href="css/style.css">
+        <!--CSS-->
+        
         
         <!--JS-->
+        <script src="js/jquery-1.11.2.min.js"></script>
+		<script>
+
+	if(navigator.userAgent.match(/Android|BlackBerry|iPhone|iPod|Opera Mini|IEMobile/i)){
+		location.href = "index_mobile.htm"  //手機版
+	}
+	else{
+		location.href = "index.htm" //電腦版
+	}
+		 </script>
+        
+        
         <script src="js/jquery-1.11.0.min.js"></script>
+        <script src="js/fsvs.js"></script>
+        <script src="js/main.js"></script>
         <script type="text/javascript">
 		$(document).ready(function(){
   		$("#movie_btn").click(function(){
@@ -25,8 +42,7 @@
   		});
 		});	
 		</script>
-        <!--JS-->  
-        
+        <!--JS-->   
     </head>
     
     <body>
@@ -44,22 +60,21 @@
        
        
        
-        <div class="outline_01">
-        <div class="outline_02">
-
-    <!--第一层 开始-->
-            <div class="block_out_01" id="media">
+        <div class="outline" >
+        <div class="block_out" id="fsvs-body" style="transition: all 1s; transform: translate3d(0px, 0%, 0px);">
+<!--第一层 开始-->
+            <div class="block_out_01 slide nth-class-1 active-slide block_out_01" id="media">
 		<!--视频 开始-->
-	  <video width="100%" height="100%" autoplay loop>
+	  <video width="100%" height="auto" autoplay loop>
 			<source src="media/soccer_web_small.mp4" type="video/mp4">
 		</video>
-	  <div class="black_cover">
+	  <div style="width:1920px;height:1080px;background:rgba(0,0,0,0.75);display:block;position:absolute;top:0px;z-index:1;">
 			<div class="logo_block">
-		  	<img class="logo" src="imges/logo.png" width="503" height="441" alt=""/ style="display:block;margin:0 auto;">
-		  	<div class="logo_sub">脚踏点球，称霸足球
- 	 	  	<div class="logo_line"></div>
+		  	<img src="imges/logo.png" width="503" height="441" alt=""/ style="display:block;">
+		  	<div class="logo_sub">脚踏点球，称霸足球</div>
+		  	<div class="logo_line"></div>
  	 	  
- 	 	  </div>
+ 	 	  
   	 	  </div>
 	  	  
 	  	<div class="next_btn_block ">
@@ -71,35 +86,50 @@
 		<!--视频 结束-->
             </div>
 	<!--第一层 结束-->
-	
-	   <!--第二层 开始-->           
-       <div class="block_out_02" id="app">
+           
+    <!--第二层 开始-->           
+            <div class="block_out_02 slide nth-class-2 block_out_02" id="app">
 		<div class="block_out_02_bg">
 		  <div class="middle_block">
-
-		  		<div class="tittle black">点球零距离...</div>
-			  	<img style="display: block;margin:0 auto;width:95%;height:auto;" src="imges/iphone_game visual.png" width="837" height="739" alt=""/>
-			  	<div class="word black">在这个移动互联网的时代，<br>不能支持手机的应用，能算应用吗?<br><br>原生态应用，<br>让你任何时刻任何地点，<br>一机在手，无限点球 !!</div>
+			
+				<!--lEFT 开始-->
+				<div class="middle_left">
+			  	<img style="display: block;" src="imges/iphone_game visual.png" width="837" height="739" alt=""/>
 			  	<div class="btn">Comming Soon...</div>
-			  	
+			  </div>
+				<!--LEFT 結束-->
+				
+				<!--RIGHT 开始-->
+				<div class="middle_right">
+			  	<div class="tittle black">点球零距离...</div>
+			  	<div class="word black">在这个移动互联网的时代，<br>不能支持手机的应用，能算应用吗?<br><br>原生态应用，<br>让你任何时刻任何地点，一机在手，无限点球 !!</div>
+			  	</div>
+				<!--RIGHT 結束-->
+				
+				
 		  </div>
 		</div>
-       </div>
-	<!--第二层 结束-->       
- 
+            </div>
+	<!--第二层 结束-->
    
     <!--第三层 開始-->        
-    <div class="block_out_03" id="player">
+            <div class="block_out_03 slide nth-class-3 block_out_03" id="player">
 	  <div class="bottom_block">
-		<div class="bottom">
-			<div class="tittle white">举足备战2018...</div>
-			<div class="word white">足球，<br>世界上最多人热爱的运动项目;世界杯，足球领域里的最盛大祭典：点球，<br>足球里最让人血脉喷张的状况。<br><br>拿起你的手机，<br>与点球一起迎接这四年一度的盛大祭典，<br>2018俄罗斯世界杯足球赛吧！</div>
-			<img class="player" src="imges/player.png" width="747" height="1298" alt=""/>
-			<div style="width:100%;height:auto;display: block;float:left;position:relative;">
-			  <div id="movie_btn"  class="movie_btn"><img style="margin-left:10%;margin-top:-100px;margin-bottom:100px;" src="imges/movie_btn.png" width="80%" height="auto" alt=""/></div>
-			</div>
+  		<!--lEFT 开始-->
+				<div class="bottom_left">
+			  	<div class="tittle white">举足备战2018...</div>
+			  	<div class="word white" style="margin-top:25px;">足球，世界上最多人热爱的运动项目;<br>世界杯，足球领域里的最盛大祭典;<br>点球，足球里最让人血脉喷张的状况。<br><br>拿起你的手机，<br>与点球一起迎接这四年一度的盛大祭典，<br>2018俄罗斯世界杯足球赛吧！</div>
+			  	
+			  	<div id="movie_btn" class="movie_btn" style="margin-top:50px;float:left;cursor:pointer;text-decoration:none;"></div>
 	  	</div>
-       </div>
+				<!--LEFT 結束-->
+				
+				<!--RIGHT 开始-->
+				<div class="bottom_right">
+		  	    <img class="player" src="imges/player.png" width="672.3" height="1168.2" alt=""/>
+		  	    </div>
+				<!--RIGHT 結束-->
+           		</div>
            				
 		<!--FOOTER 開始-->
 	  <div class="footer_01">
@@ -107,9 +137,9 @@
 		</div>
 	  <div class="footer_02">© Copyright 2017 By 点球. All Rights Reserved.</div>
 		<!--FOOTER 結束-->
-    </div>
+            </div>
   <!--第三层 結束-->
-        </div>
+       </div>
         </div>
         
         <!--gototop 開始-->
@@ -118,13 +148,11 @@
 	
 	<!--top_bar 开始-->
 	  <div class="top_bar_block ">
-	  	<div class="top_bar_inside">
 			<a class="top_bar_word" href="#media">视 频</a>
 			<div class="top_bar_line"></div>
 			<a class="top_bar_word" href="#app">点 球</a>
 			<div class="top_bar_line"></div>
 			<a class="top_bar_word" href="#player">世 界 杯</a>
-			</div>
 		</div>
 		<!--top_bar 结束-->
 
