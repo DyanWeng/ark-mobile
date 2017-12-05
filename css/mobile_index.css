@@ -23,8 +23,8 @@ body{margin:0 0;padding: 0 0;font-family:'苹方-简';background:#333333;}
 
 .logo_block{width:auto;height:auto;display:block;position: relative;transform:translateY(20%);top:50%;margin-left:40px;}
 .logo{width:30%;height:auto;display:block;}
-.logo_sub{width:auto;height:auto;display:block;color:white;font-size:22px;letter-spacing:10px;padding-right:60px;margin-top:25px;text-align:center;}
-.logo_line{width:105px;height:2px;display:block;background:#d5492e;margin-left:45%;;margin-top:25px;}
+.logo_sub{width:500px;height:auto;display:block;color:white;font-size:22px;letter-spacing:10px;padding-right:51px;margin:0 auto;margin-top:25px;text-align:center;}
+.logo_line{width:105px;height:2px;display:block;background:#d5492e;margin:0 auto;;margin-top:25px;}
 
 .next_btn_block{width:100%;height:auto;display:block;position:relative;}
 .next_btn{width:88px;height:88px;display:block;border-radius:500px;border:2px solid white;cursor:pointer;margin:0 auto; margin-top:110px;}
@@ -56,8 +56,8 @@ body{margin:0 0;padding: 0 0;font-family:'苹方-简';background:#333333;}
 .player{display:block;width:90%;height:90%;float:left;margin-top:-1200px;opacity:0.15
 	;position:relative;}
 
-.footer_01{width:100%;height:650px;display:block;float:left;background:white;}
-.about_dot{width:85%;height: auto;display: block;margin:0 auto;position: relative;transform:translateY(-50%);top:50%;text-align: center;color:#333333;font-size:45px;font-weight:100;line-height:90px;letter-spacing:1px;}
+.footer_01{width:100%;height:450px;display:block;float:left;background:white;}
+.about_dot{width:85%;height: auto;display: block;margin:0 auto;position: relative;transform:translateY(-50%);top:50%;text-align: center;color:#333333;font-size:45px;font-weight:100;line-height:60px;letter-spacing:1px;}
 .footer_02{width:100%;height:80px;display:block;float:left;text-align: center;line-height:80px;color:#999999;font-family:'苹方-简';font-weight:100;background:#333333;letter-spacing:1px;font-size:40px;}
 
 .gotop{width:76px;height:80px;display:block;background:rgba(102,102,102,0.80);position:fixed;bottom:50px;right:50px;z-index:20;padding:0 2px;border-radius:10px;cursor:pointer;}
