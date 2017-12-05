@@ -21,10 +21,10 @@ body{margin:0 0;padding: 0 0;font-family:'苹方-简';background:#333333;}
 .top_bar_word{width:auto;height:auto;line-height:100px;color:white;font-size:60px;text-decoration:none;letter-spacing:5px;text-align:center;vertical-align:middle;}
 .top_bar_line{width:2px;height:50px;display:inline-block;background:#d5492e;vertical-align:middle;margin:0 35px;}
 
-.logo_block{width:auto;height:auto;display:block;margin:0 auto;position: relative;transform:translateY(20%);top:50%;margin-left:80px;}
+.logo_block{width:auto;height:auto;display:block;position: relative;transform:translateY(20%);top:50%;margin-left:40px;}
 .logo{width:30%;height:auto;display:block;}
 .logo_sub{width:auto;height:auto;display:block;color:white;font-size:22px;letter-spacing:10px;padding-right:60px;margin-top:25px;text-align:center;}
-.logo_line{width:105px;height:2px;display:block;background:#d5492e;margin:0 auto;margin-top:25px;}
+.logo_line{width:105px;height:2px;display:block;background:#d5492e;margin-left:45%;;margin-top:25px;}
 
 .next_btn_block{width:100%;height:auto;display:block;position:relative;}
 .next_btn{width:88px;height:88px;display:block;border-radius:500px;border:2px solid white;cursor:pointer;margin:0 auto; margin-top:110px;}
