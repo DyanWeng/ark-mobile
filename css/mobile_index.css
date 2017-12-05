@@ -43,7 +43,7 @@ body{margin:0 0;padding: 0 0;font-family:'苹方-简';background:#333333;}
 .word.white{color:white;letter-spacing:1px;margin-top:-50px;}
 
 
-.btn{width:80%;;height:150px;border-radius:5000px;display:block;font-size:70px;font-family:'苹方-简';line-height:150px;text-align:center;margin:0 auto;border:2px solid black;color:black;transition:all 0.5s;margin-top:200px;margin-bottom:70px;} 
+.btn{width:80%;;height:150px;border-radius:5000px;display:block;font-size:70px;font-family:'苹方-简';line-height:150px;text-align:center;margin:0 auto;border:2px solid black;color:black;transition:all 0.5s;margin-top:130px;margin-bottom:70px;} 
 .btn:hover{background:black;color:white;}
 
 .movie_btn{width: auto;height: auto; display:block;transition:all 0.5s;margin:0 auto;top:500px;}
